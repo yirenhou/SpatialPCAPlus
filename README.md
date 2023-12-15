@@ -7,5 +7,5 @@ NewTestingCodes - responsible for test cases comparing computational time betwee
                   matrix in SpatialPCA
                 - utilized functions BuildTestingKernels (BuildTestingKernels.R), nngp_approx (NNGP_InverseKernel.R), nngpMethodEquations_InverseKernel (NNGPMethod.R), SpatialPCAEquations_InverseKernel and SpatialPCA_InverseKernel (SpatialPCAMethod.R)
 
-
+#
 
