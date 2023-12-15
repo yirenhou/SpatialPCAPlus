@@ -1,0 +1,15 @@
+Package: SpatialPCAPlus
+Title: Spatial PCA with NNGP approximation
+Version: 0.0.0.9000
+Authors@R: 
+    person("Yiren", "Hou", , "yirenhou@umich.edu", role = c("aut", "cre"),
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: This package provides the Nearest Neighborhood Gaussian Process function (NNGP_InverseKernel.R) to approximate inverse of kernel matrix K defined from the underlying latent factor model in Spatial PCA. It also provides functions to estimate loading matrix W and latent factor matrix Z by integrating output (K inverse, determinant of K) approximated by Nearest Neighborhood Gaussian Process. Additional test cases looking at computational time are performed in NewTestingCodes folder.
+License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
+    license
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Imports: methods, MASS, Matrix, RSpectra, Rtsne, Seurat,
+        parallel, pdist, tidyr, umap, ggplot2, dplyr,
+        assertthat, foreach
